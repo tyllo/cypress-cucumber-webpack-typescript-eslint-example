@@ -1,0 +1,19 @@
+{
+  "testFiles": [
+    "**/*.{feature,features}"
+  ],
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "chromeWebSecurity": false,
+  "trashAssetsBeforeRuns": false,
+  "watchForFileChanges": false,
+  "browser": "chrome",
+  "waitForAnimations": true,
+  "animationDistanceThreshold": 90,
+  "numTestsKeptInMemory": 60,
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "supportFile": "cypress/support/index.ts"
+}

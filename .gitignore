@@ -1,0 +1,10 @@
+/node_modules
+/cypress/cucumber-json/
+/cypress/videos/
+/cypress/screenshots/
+/cypress/logs/
+cypress/fixtures/
+cypress.local.json/
+/.bit
+.bitmap
+.eslintcache

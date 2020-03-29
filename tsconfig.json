@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "paths": {
+      "@/*": [
+        "cypress/*"
+      ]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "cypress/declare.d.ts",
+  ],
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/**/*.js",
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // ===
+  // Files
+  // ===
+
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+  "files.associations": {
+    ".markdownlintrc": "jsonc"
+  },
+
+  // ===
+  // Event Triggers
+  // ===
+
+  "editor.formatOnSave": false,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": false },
+    { "language": "typescript", "autoFix": false },
+    { "language": "javascriptreact", "autoFix": false },
+    { "language": "vue", "autoFix": false },
+    { "language": "vue-html", "autoFix": false },
+    { "language": "html", "autoFix": false }
+  ],
+  "vetur.completion.useScaffoldSnippets": false,
+
+  // ===
+  // HTML
+  // ===
+
+  "vetur.experimental.templateInterpolationService": false,
+  "html.format.enable": false,
+  "vetur.validation.template": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  "vetur.format.defaultFormatter.html": "none",
+
+  // ===
+  // JS(ON)
+  // ===
+
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+  "vetur.validation.script": false,
+  "vetur.format.defaultFormatter.js": "none",
+
+  // ===
+  // CSS
+  // ===
+
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.style": false,
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "[vue-html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "[html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    }
+  },
+  "cSpell.words": [
+  ]
+}
